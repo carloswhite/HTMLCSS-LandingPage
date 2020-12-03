@@ -17,6 +17,21 @@ h1, h2, h3, h4, h5, h6 { margin: 0; }
     max-width: 1170px;
 }
 
+/* 3. Section as Flex Containers */
 section {
     display: flex;
 }
+
+/* 4. Flex Utilities */
+.flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-one {
+    flex: 1;
+}
+
